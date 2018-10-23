@@ -1,0 +1,7 @@
+<div class="filter">
+  <app-filter [years]="years$ | async"></app-filter>
+</div>
+<div class="graph">
+  <app-chart [series]="series$ | async"
+            [title]="title"></app-chart>
+</div>

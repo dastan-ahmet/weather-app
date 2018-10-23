@@ -1,0 +1,5 @@
+<div class="menu">
+  <a *ngFor="let item of items"
+      class="menu-item"
+      routerLink="{{ '/' + item.path }}">{{ item.title }}</a>
+</div>

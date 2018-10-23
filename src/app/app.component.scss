@@ -1,0 +1,13 @@
+:host() {
+  .app {
+    display: flex;
+
+    .left {
+      .menu {}  
+    }
+    .right {
+      margin-left: 10px;
+      width: 60%;
+    }
+  }
+}

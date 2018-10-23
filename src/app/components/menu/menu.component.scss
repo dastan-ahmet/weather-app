@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  border: 1px solid grey;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}

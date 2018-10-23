@@ -1,0 +1,14 @@
+<select name="year-from" id="year-from" (change)="onYearFromChange($event)">
+  <option *ngFor="let yFrom of years; let i = index"
+          [value]="yFrom"
+          [selected]="yearFrom == yFrom">
+    {{ yFrom }}
+  </option>
+</select>
+<select name="year-to" id="year-to" (change)="onYearToChange($event)">
+  <option *ngFor="let yTo of years; let i = index"
+          [value]="yTo"
+          [selected]="yearTo == yTo">
+    {{ yTo }}
+  </option>
+</select>
